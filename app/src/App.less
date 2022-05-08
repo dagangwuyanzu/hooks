@@ -1,0 +1,32 @@
+.App {
+  >div {
+    display: flex;
+    column-gap: 50px;
+    padding: 30px;
+
+    >div {
+      margin-top: 50px;
+      width: 200px;
+      height: 150px;
+      background-color: rgba(255, 192, 203, 0.6);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      transition: all .4s;
+      padding: 15px 0;
+      box-sizing: border-box;
+
+      &:hover {
+        transform: translateY(-20px);
+        background-color: rgba(255, 192, 203, 0.85);
+      }
+
+      .title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
