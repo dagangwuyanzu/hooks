@@ -1,7 +1,7 @@
 import useWindowResize from '../hooks/useWindowResize'
 
 export default function TestUseWindowResize() {
-  const { w_width, w_height } = useWindowResize();
+  const [w_width, w_height] = useWindowResize();
   return (
     <div>
       <div className='title'>useWindowResize</div>

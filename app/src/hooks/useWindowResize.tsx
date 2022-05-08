@@ -15,5 +15,5 @@ export default function useWindowResize() {
     return () => window.removeEventListener('resize', onResize)
   }, [])
 
-  return { w_width, w_height }
+  return [w_width, w_height]
 }

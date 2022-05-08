@@ -1,13 +1,12 @@
-import { useState } from 'react';
 import './App.less';
-import { TestUseWindowResize } from './Panels'
+import { TestUseWindowResize, TestUseUrlLoader } from './Panels'
 
 function App() {
-
   return (
     <div className="App">
       <div>
         <TestUseWindowResize />
+        <TestUseUrlLoader />
       </div>
     </div>
   )
