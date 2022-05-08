@@ -1,7 +1,0 @@
-.DS_STORE
-node_modules
-dist
-*.sublime*
-/.node-version
-*.map
-package-lock.json
